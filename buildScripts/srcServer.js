@@ -21,6 +21,7 @@ res.sendFile(path.join(__dirname,'../src/index.html'));
 });
 
 app.listen(port,(err)=>{
+  console.log(port);
   if(err){
     console.log(err);
   }else{
